@@ -1,0 +1,29 @@
+{
+  "name": "teststore-cypress",
+  "version": "1.0.0",
+  "description": "Projeto para exercitar meus conhecimentos com Cypress. Tentarei adotar Page object model.",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run",
+    "cy:open_mobile_viewport" : "cypress open --config viewportWidth=370 viewportHeight=660"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielandrioli/teststore-cypress.git"
+  },
+  "keywords": [
+    "cypress",
+    "test",
+    "store"
+  ],
+  "author": "Daniel Andrioli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielandrioli/teststore-cypress/issues"
+  },
+  "homepage": "https://github.com/danielandrioli/teststore-cypress#readme",
+  "devDependencies": {
+    "cypress": "^13.6.3"
+  }
+}
